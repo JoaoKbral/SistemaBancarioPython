@@ -22,7 +22,7 @@ while True:
 
         if valor > 0:
             saldo += valor
-            extrato += f"Depósito: R$ {valor:.2f\n}"
+            extrato += f"Depósito: R$ {valor:.2f}\n"
 
         else:
             print("Operação falhou! Valor inválido")
@@ -44,7 +44,7 @@ while True:
 
         elif valor > 0:
             saldo -= valor
-            extrato += f"Saque: R$ {valor:.2f\n}"
+            extrato += f"Saque: R$ {valor:.2f}\n"
             numero_saques += 1
 
         else:
